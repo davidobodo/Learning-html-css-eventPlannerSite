@@ -4,4 +4,15 @@ body {
   box-sizing: border-box;
 }
 
+header {
+  height: 500px;
+  background-color: blue;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  height: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
