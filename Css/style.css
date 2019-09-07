@@ -24,8 +24,7 @@ header nav.navbar-light ul li a {
   font-size: 0.8rem;
 }
 header > div {
-  width: 40%;
-  margin: auto;
+  margin: auto 20px;
   text-align: center;
 }
 header > div > h2 {
@@ -99,6 +98,19 @@ header > div > p {
   margin-right: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  #quickLinks ul {
+    flex-wrap: wrap;
+    height: 100px;
+  }
+  #quickLinks .container div:nth-child(3) .special {
+    order: 100;
+  }
+  #quickLinks .container h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
 footer {
   background: url("../images/footer.jpg");
   color: white;
@@ -145,6 +157,12 @@ footer h6 {
   padding: 15px 0;
   margin: 45px 70px;
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 576px) {
+  footer .input-group {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

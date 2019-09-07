@@ -47,3 +47,19 @@
                 .fa
                     color: #fa849c
                     margin-right: 10px
+
+
+$break: 768px
+
+@media screen and (max-width: $break)
+        #quickLinks
+            ul
+                flex-wrap: wrap
+                height: 100px
+            .container
+                div:nth-child(3)
+                    .special
+                        order: 100
+                h2
+                    text-align: center
+                    margin-top: 20px
