@@ -110,6 +110,7 @@ footer h3 {
   border-bottom: 1px solid #ffffff;
   padding: 15px 0;
   margin: 45px auto;
+  font-weight: normal;
 }
 footer .input-group {
   width: 500px;
@@ -120,8 +121,14 @@ footer .input-group input {
   margin-right: 5px;
   border-radius: 0;
 }
-footer .input-group button {
+footer .input-group button.btn {
   border-radius: 0;
+  padding: 0 20px;
+  background-color: #ce2d4f;
+}
+footer .input-group button.btn i {
+  font-size: 35px;
+  color: #ffffff;
 }
 footer ul {
   list-style: none;
