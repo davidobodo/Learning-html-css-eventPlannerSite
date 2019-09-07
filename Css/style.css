@@ -9,8 +9,9 @@ body h1, body h2, body h3, body h4 {
 }
 
 header {
-  height: 500px;
+  height: 700px;
   background: url("../images/banner.jpg");
+  background-size: cover;
   color: white;
 }
 header nav.navbar-light .navbar-brand {

@@ -11,6 +11,7 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="aos.css" />
 </head>
 
 <body>
@@ -18,14 +19,20 @@
         <header class="d-flex flex-column">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
-                    <h1><a class="navbar-brand text-light" href="#">Events Planning</a></h1>
+                    <h1><a class="navbar-brand text-light" href="#"  data-aos="fade-right"
+                        data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="500">Events Planning</a></h1>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent"  data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="500">
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link text-light" href="#">HOME <span class="sr-only">(current)</span></a>
@@ -47,7 +54,7 @@
                 </div>
             </nav>
 
-            <div>
+            <div data-aos="fade-down">
                 <h1>Let professionals run your event</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Reprehenderit magnam quae enim quia tenetur incidunt,
@@ -58,26 +65,26 @@
         <!-- section one -->
         <section id="events">
             <div class="container">
-                <div class="text-center">
+                <div class="text-center" data-aos="fade-down">
                     <h3>Welcome to our <span class="text-danger">Events</span></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos n</p>
                 </div>
                 <div class="row justify-content-between text-center text-break">
-                    <div class="col-md-3">
+                    <div class="col-md-3" data-aos="fade-right">
                         <div class="design"><i class="fa fa-birthday-cake" aria-hidden="true"></i></div>
                         <h4 class="my-3">Birthday</h4>
                         <p>Reprehenderit magnam quae enim quia tenetur incidunt,
                             optio fugiat numquam?</p>
 
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3" data-aos="fade-up">
                         <div class="design"><i class="fa fa-heart-o" aria-hidden="true"></i></div>
                         <h4 class="my-3">Wedding</h4>
                         <p>Reprehenderit magnam quae enim quia tenetur incidunt,
                             optio fugiat numquam? </p>
 
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3" data-aos="fade-left">
                         <div class="design"><i class="fa fa-asterisk" aria-hidden="true"></i></div>
                         <h4 class="my-3">Corporate</h4>
                         <p>Reprehenderit magnam quae enim quia tenetur incidunt,
@@ -97,7 +104,7 @@
                         dignissimos n</p>
                 </div>
                 <div class="row justify-content-between text-break">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-10 m-auto" data-aos="flip-left">
                         <div><img src="images/4.jpg" class="w-100" /></div>
                         <h4 class="my-3">Pastry Locations</h4>
                         <p class="text-light">Reprehenderit magnam quae enim quia tenetur incidunt,
@@ -105,7 +112,7 @@
                         </p>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-10 m-auto" data-aos="flip-up">
                         <div><img src="images/5.jpg" class="w-100" /></div>
                         <h4 class="my-3">Catering & Food</h4>
                         <p class="text-light">Reprehenderit magnam quae enim quia tenetur incidunt,
@@ -113,7 +120,7 @@
                         </p>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-10 m-auto" data-aos="flip-right">
                         <div><img src="images/9.jpg" class="w-100" /></div>
                         <h4 class="my-3">Decors & Decorations</h4>
                         <p class="text-light">Reprehenderit magnam quae enim quia tenetur incidunt,
@@ -132,8 +139,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos n</p>
                 </div>
                 <div class="row p-4">
-                    <div class="col-md-6"><img src="images/1.jpg" class="w-100 h-100" /></div>
-                    <div class="col-md-6 special">
+                    <div class="col-md-6" data-aos="zoom-in-right"><img src="images/1.jpg" class="w-100 h-100" /></div>
+                    <div class="col-md-6 special" data-aos="zoom-in-left">
                         <h2>Birthday Specials</h2>
                         <ul>
                             <li><i class="fa fa-arrow-right" aria-hidden="true"></i>party</li>
@@ -148,7 +155,7 @@
                     </div>
                 </div>
                 <div class="row p-4">
-                    <div class="col-md-6 special">
+                    <div class="col-md-6 special" data-aos="zoom-in-right">
                         <h2>Birthday Specials</h2>
                         <ul>
                             <li><i class="fa fa-arrow-right" aria-hidden="true"></i>party</li>
@@ -162,11 +169,11 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-6"><img src="images/2.jpg" class="w-100 h-100" /></div>
+                    <div class="col-md-6" data-aos="zoom-in-left"><img src="images/2.jpg" class="w-100 h-100" /></div>
                 </div>
                 <div class="row p-4">
-                    <div class="col-md-6"><img src="images/13.jpg" class="w-100 h-100" /></div>
-                    <div class="col-md-6 special">
+                    <div class="col-md-6" data-aos="zoom-in-right"><img src="images/13.jpg" class="w-100 h-100" /></div>
+                    <div class="col-md-6 special" data-aos="zoom-in-left">
                         <h2>Birthday Specials</h2>
                         <ul>
                             <li><i class="fa fa-arrow-right" aria-hidden="true"></i>party</li>
@@ -205,6 +212,7 @@
             <h6>copyright 2017 Events Planning. All rights reserved | Design by <span class="text-danger">W3Layouts</span></h6>
         </footer>
     </div>
+    <script src="aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -214,6 +222,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script>
+        AOS.init({
+			duration: 2000,
+			offset: 200
+		});
+    </script>
 </body>
 
 </html>
