@@ -78,5 +78,33 @@ footer h3 {
   padding: 15px 0;
   margin: 45px auto;
 }
+footer .input-group {
+  width: 500px;
+  margin: 0 auto;
+  border: 20px solid rgba(0, 0, 0, 0.5);
+}
+footer .input-group input {
+  margin-right: 5px;
+  border-radius: 0;
+}
+footer .input-group button {
+  border-radius: 0;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer ul li a {
+  color: #ffffff;
+  margin: 0 10px;
+}
+footer h6 {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  padding: 15px 0;
+  margin: 45px 70px;
+  font-size: 0.8rem;
+}
 
 /*# sourceMappingURL=style.css.map */

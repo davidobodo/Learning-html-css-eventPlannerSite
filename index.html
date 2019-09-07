@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 </head>
 
@@ -92,7 +94,8 @@
             <div class="container">
                 <div class="text-center">
                     <h3>Our <span class="text-light">Services</span></h3>
-                    <p class="text-light my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos n</p>
+                    <p class="text-light my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                        dignissimos n</p>
                 </div>
                 <div class="row justify-content-between text-break">
                     <div class="col-md-4">
@@ -185,16 +188,22 @@
         <footer class="text-center">
             <h2>Events Planning</h2>
             <h3>(+000) 123 456 789</h3>
-            <input placeholder="Your email..." />
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your Email..."
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Send</button>
+                </div>
+            </div>
             <div>
                 <ul>
-                    <li>facebook</li>
-                    <li>twitter</li>
-                    <li>instagram</li>
-                    <li>gmail</li>
+                    <li><a href="#" class="fa fa-facebook-official"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-google"></a></li>
                 </ul>
             </div>
-            <h6>copyright 2017 Events Planning. All rights reserved | Design by <span>W3Layouts</span></h6>
+            <h6>copyright 2017 Events Planning. All rights reserved | Design by <span class="text-danger">W3Layouts</span></h6>
         </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
